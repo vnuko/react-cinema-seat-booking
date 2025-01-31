@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 36, 44);
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+p {
+  font-size: 1.6rem; /* 16px */
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px white;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+header .title {
+  display: flex;
+}
+
+header .sub-title {
+  display: flex;
+  flex-direction: column;
+}
+
+header .title h6 {
+  font-weight: 500;
+  font-size: 2rem;
+  flex: 1;
+}
+
+header .sub-title span {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+header .sub-title .notes span {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.legend {
+  font-size: 1.2rem;
+  border-bottom: solid 1px white;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cinema-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.screen-wrap {
+  width: 100%;
+  filter: drop-shadow(-2px 1px 12px rgba(255, 255, 255, 0.8));
+}
+
+.screen {
+  background-color: #fff;
+  height: 7.5rem;
+  margin-bottom: 4rem;
+  clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 5% 100%);
+}
+
+.row {
+  display: flex;
+}
+
+.row-name {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 3rem;
+  margin: 0.4rem 0.2rem 0.4rem 0.2rem;
+}
+
+.seat {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 3rem;
+  width: 3rem;
+  margin: 0.4rem 0.2rem 0.4rem 0.2rem;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.seat {
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 3rem;
+  width: 3rem;
+  margin: 0.4rem 0.2rem 0.4rem 0.2rem;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  border-bottom-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  cursor: pointer;
+}
+
+.seat:not(.occupied):hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.seat.selected {
+  background-color: rgb(255, 0, 0);
+}

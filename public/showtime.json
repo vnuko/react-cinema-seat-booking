@@ -1,0 +1,128 @@
+{
+  "id": "showtime001",
+  "timestamp": "2019-07-01T18:00:00Z",
+  "movie": {
+    "id": "movie001",
+    "title": "Avengers: Endgame",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "age_restriction": 13,
+    "features": ["Violence", "Superhero Action", "Fantasy"],
+    "duration": 181,
+    "language": "English",
+    "subtitles": true,
+    "type": "2D"
+  },
+  "cinema": {
+    "id": "cinema001",
+    "name": "Cineplexx Vienna"
+  },
+  "room": {
+    "id": "room001",
+    "name": "IMAX Screen 2"
+  },
+  "price": {
+    "currency": "EUR",
+    "adult": 8.5,
+    "senior": 6.5,
+    "youth": 7.0,
+    "child": 5.5,
+    "disabled": 6.0
+  },
+  "rows": [
+    {
+      "name": "A",
+      "seats": [
+        { "name": "1", "status": "free", "id": "A-1" },
+        { "name": "2", "status": "free", "id": "A-2" },
+        { "name": "3", "status": "free", "id": "A-3" },
+        { "name": "4", "status": "free", "id": "A-4" },
+        { "name": "5", "status": "free", "id": "A-5" },
+        { "name": "6", "status": "free", "id": "A-6" },
+        { "name": "7", "status": "free", "id": "A-7" },
+        { "name": "8", "status": "free", "id": "A-8" }
+      ]
+    },
+    {
+      "name": "B",
+      "seats": [
+        { "name": "1", "status": "free", "id": "B-1" },
+        { "name": "2", "status": "free", "id": "B-2" },
+        { "name": "3", "status": "free", "id": "B-3" },
+        { "name": "4", "status": "free", "id": "B-4" },
+        { "name": "5", "status": "free", "id": "B-5" },
+        { "name": "6", "status": "free", "id": "B-6" },
+        { "name": "7", "status": "free", "id": "B-7" },
+        { "name": "8", "status": "free", "id": "B-8" }
+      ]
+    },
+    {
+      "name": "C",
+      "seats": [
+        { "name": "1", "status": "free", "id": "C-1" },
+        { "name": "2", "status": "free", "id": "C-2" },
+        { "name": "3", "status": "free", "id": "C-3" },
+        { "name": "4", "status": "free", "id": "C-4" },
+        { "name": "5", "status": "free", "id": "C-5" },
+        { "name": "6", "status": "free", "id": "C-6" },
+        { "name": "7", "status": "free", "id": "C-7" },
+        { "name": "8", "status": "free", "id": "C-8" }
+      ]
+    },
+    {
+      "name": "D",
+      "seats": [
+        { "name": "1", "status": "free", "id": "D-1" },
+        { "name": "2", "status": "free", "id": "D-2" },
+        { "name": "3", "status": "free", "id": "D-3" },
+        { "name": "4", "status": "free", "id": "D-4" },
+        { "name": "5", "status": "free", "id": "D-5" },
+        { "name": "6", "status": "free", "id": "D-6" },
+        { "name": "7", "status": "free", "id": "D-7" },
+        { "name": "8", "status": "free", "id": "D-8" }
+      ]
+    },
+    {
+      "name": "E",
+      "seats": [
+        { "name": "1", "status": "free", "id": "E-1" },
+        { "name": "2", "status": "free", "id": "E-2" },
+        { "name": "3", "status": "free", "id": "E-3" },
+        { "name": "4", "status": "free", "id": "E-4" },
+        { "name": "5", "status": "free", "id": "E-5" },
+        { "name": "6", "status": "free", "id": "E-6" },
+        { "name": "7", "status": "free", "id": "E-7" },
+        { "name": "8", "status": "free", "id": "E-8" }
+      ]
+    },
+    {
+      "name": "F",
+      "seats": [
+        { "name": "1", "status": "free", "id": "F-1" },
+        { "name": "2", "status": "free", "id": "F-2" },
+        { "name": "3", "status": "free", "id": "F-3" },
+        { "name": "4", "status": "free", "id": "F-4" },
+        { "name": "5", "status": "free", "id": "F-5" },
+        { "name": "6", "status": "free", "id": "F-6" },
+        { "name": "7", "status": "free", "id": "F-7" },
+        { "name": "8", "status": "free", "id": "F-8" }
+      ]
+    },
+    {
+      "name": "G",
+      "seats": [
+        { "name": "1", "status": "free", "id": "G-1" },
+        { "name": "2", "status": "free", "id": "G-2" },
+        { "name": "3", "status": "free", "id": "G-3" },
+        { "name": "4", "status": "free", "id": "G-4" },
+        { "name": "5", "status": "free", "id": "G-5" },
+        { "name": "6", "status": "free", "id": "G-6" },
+        { "name": "7", "status": "free", "id": "G-7" },
+        { "name": "8", "status": "free", "id": "G-8" },
+        { "name": "9", "status": "free", "id": "G-9" },
+        { "name": "10", "status": "free", "id": "G-10" },
+        { "name": "11", "status": "free", "id": "G-11" },
+        { "name": "12", "status": "free", "id": "G-12" }
+      ]
+    }
+  ]
+}
