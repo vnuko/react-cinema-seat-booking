@@ -23,15 +23,17 @@ const reducer = (state, action) => {
         return state;
       }
 
-      const isAlreadySelected = state.selectedSeats.includes(seat.id);
+      const isAlreadySelected = state.selectedSeats.some(
+        (selectedSeat) => selectedSeat.id === seat.id
+      );
 
       return {
         ...state,
         selectedSeats: isAlreadySelected
           ? state.selectedSeats.filter(
-              (selectedSeat) => selectedSeat != seat.id
+              (selectedSeat) => selectedSeat.id != seat.id
             )
-          : [...state.selectedSeats, seat.id],
+          : [...state.selectedSeats, seat],
       };
     default:
       return state;

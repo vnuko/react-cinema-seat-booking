@@ -22,24 +22,22 @@
   },
   "price": {
     "currency": "EUR",
-    "adult": 8.5,
-    "senior": 6.5,
-    "youth": 7.0,
-    "child": 5.5,
-    "disabled": 6.0
+    "adult": 12.5,
+    "child": 12.5,
+    "disabled": 8.5
   },
   "rows": [
     {
       "name": "A",
       "seats": [
-        { "name": "1", "status": "free", "id": "A-1" },
-        { "name": "2", "status": "free", "id": "A-2" },
+        { "name": "1", "status": "free", "id": "A-1", "accessible": true },
+        { "name": "2", "status": "free", "id": "A-2", "accessible": true },
         { "name": "3", "status": "free", "id": "A-3" },
         { "name": "4", "status": "free", "id": "A-4" },
         { "name": "5", "status": "free", "id": "A-5" },
         { "name": "6", "status": "free", "id": "A-6" },
-        { "name": "7", "status": "free", "id": "A-7" },
-        { "name": "8", "status": "free", "id": "A-8" }
+        { "name": "7", "status": "free", "id": "A-7", "accessible": true },
+        { "name": "8", "status": "free", "id": "A-8", "accessible": true }
       ]
     },
     {
@@ -86,8 +84,8 @@
       "seats": [
         { "name": "1", "status": "free", "id": "E-1" },
         { "name": "2", "status": "free", "id": "E-2" },
-        { "name": "3", "status": "free", "id": "E-3" },
-        { "name": "4", "status": "free", "id": "E-4" },
+        { "name": "3", "status": "occupied", "id": "E-3" },
+        { "name": "4", "status": "occupied", "id": "E-4" },
         { "name": "5", "status": "free", "id": "E-5" },
         { "name": "6", "status": "free", "id": "E-6" },
         { "name": "7", "status": "free", "id": "E-7" },
@@ -117,11 +115,28 @@
         { "name": "5", "status": "free", "id": "G-5" },
         { "name": "6", "status": "free", "id": "G-6" },
         { "name": "7", "status": "free", "id": "G-7" },
-        { "name": "8", "status": "free", "id": "G-8" },
-        { "name": "9", "status": "free", "id": "G-9" },
-        { "name": "10", "status": "free", "id": "G-10" },
+        { "name": "8", "status": "occupied", "id": "G-8" },
+        { "name": "9", "status": "occupied", "id": "G-9" },
+        { "name": "10", "status": "occupied", "id": "G-10" },
         { "name": "11", "status": "free", "id": "G-11" },
         { "name": "12", "status": "free", "id": "G-12" }
+      ]
+    },
+    {
+      "name": "H",
+      "seats": [
+        { "name": "1", "status": "free", "id": "H-1" },
+        { "name": "2", "status": "free", "id": "H-2" },
+        { "name": "3", "status": "occupied", "id": "H-3" },
+        { "name": "4", "status": "occupied", "id": "H-4" },
+        { "name": "5", "status": "free", "id": "H-5" },
+        { "name": "6", "status": "free", "id": "H-6" },
+        { "name": "7", "status": "free", "id": "H-7" },
+        { "name": "8", "status": "free", "id": "H-8" },
+        { "name": "9", "status": "free", "id": "H-9" },
+        { "name": "10", "status": "free", "id": "H-10" },
+        { "name": "11", "status": "free", "id": "H-11" },
+        { "name": "12", "status": "free", "id": "H-12" }
       ]
     }
   ]
