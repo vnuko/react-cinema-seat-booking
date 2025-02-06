@@ -1,26 +1,37 @@
 # React Cinema Seat Booking
 
-A Cinema seat booking application built with React and Vite. This project allows users to select seats, view pricing, and reserve their spots for a movie showtime.
+A Cinema Seat Booking application built with React. This project allows users to book seats in a cinema, providing a smooth and interactive experience.
 
-**This project is still in progress.**
+## Demo
+
+The project is deployed on GitHub Pages. You can visit it here:
+[Live Demo](https://vnuko.github.io/react-cinema-seat-booking/)
+
+## Features
+
+- Select and book available seats.
+- Real-time seat availability updates.
+- Responsive design for mobile and desktop.
 
 ## Installation & Setup
 
-1. **Clone the repository**
+To run the project locally, follow these steps:
 
-   ```sh
-   git clone https://github.com/vnuko/react-cinema-seat-booking.git
-   cd react-cinema-seat-booking
-   ```
+### 1. Clone the repository
 
-2. **Install dependencies**
+```sh
+git clone https://github.com/vnuko/cinema-seat-booking.git
+cd cinema-seat-booking
+```
 
-   ```sh
-   npm install
-   ```
+### 2. Install dependencies
 
-3. **Start the development server**
+```sh
+npm install
+```
 
-   ```sh
-   npm run dev
-   ```
+### 3. Install dependencies
+
+```sh
+npm run dev
+```

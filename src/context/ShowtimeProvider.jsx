@@ -45,7 +45,7 @@ function ShowtimeProvider({ children }) {
 
   useEffect(() => {
     const fetchShowtime = async () => {
-      const response = await fetch("/showtime.json");
+      const response = await fetch(`${import.meta.env.BASE_URL}showtime.json`);
       const data = await response.json();
       dispatch({ type: ACTIONS.SET_SHOWTIME, payload: data });
     };
